@@ -1,0 +1,26 @@
+{
+  "short_name": "Reveye Limyè",
+  "name": "Reveye Limyè Ou — FJ Enterprises LLC",
+  "description": "Vwayaj espirityèl ou kòmanse isit. Ancestral Light • Granny Tea • Challenges • Mizik • Rezèvasyon.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d0800",
+  "theme_color": "#C17D3C",
+  "lang": "ht",
+  "categories": ["lifestyle", "health", "spirituality"]
+}
