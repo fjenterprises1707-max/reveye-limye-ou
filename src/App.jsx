@@ -161,7 +161,15 @@ export default function App() {
   const HomePage = () => (
     <div>
       <div style={{textAlign:"center",padding:"28px 0 22px"}}>
-        <div style={{fontSize:50,marginBottom:10}}>🌸</div>
+        <img
+  src="/file_00000000aedc71fb993e08263163f040.png"
+  style={{
+    width:"100px",
+    height:"100px",
+    objectFit:"contain",
+    marginBottom:"10px"
+  }}
+/>
         <h1 style={{fontSize:24,fontWeight:700,color:C.gold,marginBottom:6,letterSpacing:1}}>{t.home.greeting}</h1>
         <p style={{color:C.muted,fontSize:14}}>{t.home.sub}</p>
         <div style={{marginTop:6,fontSize:10,color:C.primary,letterSpacing:2,textTransform:"uppercase"}}>{t.company}</div>
