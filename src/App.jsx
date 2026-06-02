@@ -1,4 +1,4 @@
-import { useState } from "react";
+kiimport { useState } from "react";
 
 const SERVICES = [
   {
@@ -539,7 +539,6 @@ export default function App() {
       `}</style>
       <div style={s.header}>
         <div style={s.logoRow}>
-  <i
     <div style={s.logoMark}>
   <img
     src="/file_00000000aedc71fb993e08263163f040.png"
