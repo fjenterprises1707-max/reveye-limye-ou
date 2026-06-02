@@ -541,7 +541,7 @@ export default function App() {
         <div style={s.logoRow}>
           <div style={s.logoMark}>
             <img
-              src="/126858.png"
+              src="/file_00000000aedc71fb993e08263163f040.png""
               style={{width:"100%",height:"100%",objectFit:"contain"}}
             />
           </div>
