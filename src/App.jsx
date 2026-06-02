@@ -1,4 +1,4 @@
-kiimport { useState } from "react";
+import { useState } from "react";
 
 const SERVICES = [
   {
@@ -132,7 +132,7 @@ export default function App() {
     app: { minHeight:"100vh", background:C.bg, fontFamily:"'Cinzel','Playfair Display',Georgia,serif", color:C.text },
     header: { background:"rgba(13,8,0,0.97)", backdropFilter:"blur(20px)", borderBottom:`1px solid ${C.border}`, padding:"12px 16px", display:"flex", alignItems:"center", justifyContent:"space-between", position:"sticky", top:0, zIndex:200 },
     logoRow: { display:"flex", alignItems:"center", gap:10 },
-    logoMark: { width:34, height:34, borderRadius:"50%", background:`linear-gradient(135deg, ${C.primary}, ${C.goldLight})`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:16, boxShadow:`0 0 16px ${C.primary}55` },
+    logoMark: { width:34, height:34, borderRadius:"50%", overflow:"hidden", background:"transparent", display:"flex", alignItems:"center", justifyContent:"center" },
     logoName: { fontSize:15, fontWeight:700, color:C.gold, letterSpacing:1 },
     logoSub: { fontSize:9, color:C.muted, letterSpacing:2, textTransform:"uppercase" },
     langRow: { display:"flex", gap:2, background:"rgba(255,255,255,0.05)", borderRadius:20, padding:3 },
@@ -539,12 +539,13 @@ export default function App() {
       `}</style>
       <div style={s.header}>
         <div style={s.logoRow}>
-    <div style={s.logoMark}>
-  <img
-    src="/file_00000000aedc71fb993e08263163f040.png"
-    style={{width:"100%",height:"100%",objectFit:"contain"}}
-  />
-</div>
+          <div style={s.logoMark}>
+            <img
+              src="/126858.png"
+              style={{width:"100%",height:"100%",objectFit:"contain"}}
+            />
+          </div>
+          <div>
             <div style={s.logoName}>{t.appName}</div>
             <div style={s.logoSub}>{t.company}</div>
           </div>
@@ -566,4 +567,4 @@ export default function App() {
       </div>
     </div>
   );
-              }
+}
