@@ -539,8 +539,13 @@ export default function App() {
       `}</style>
       <div style={s.header}>
         <div style={s.logoRow}>
-          <div style={s.logoMark}>🌸</div>
-          <div>
+  <i
+    <div style={s.logoMark}>
+  <img
+    src="/file_00000000aedc71fb993e08263163f040.png"
+    style={{width:"100%",height:"100%",objectFit:"contain"}}
+  />
+</div>
             <div style={s.logoName}>{t.appName}</div>
             <div style={s.logoSub}>{t.company}</div>
           </div>
