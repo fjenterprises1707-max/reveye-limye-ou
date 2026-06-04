@@ -375,7 +375,25 @@ export default function App() {
                   <span style={s.badge(ch.color)}>{ch.total} {t.challenges.days}</span>
                 </div>
               </div>
-            </div>
+            </div><div style={{marginTop:12, marginBottom:14}}>
+  <a
+    href="https://youtu.be/_CnhzRKmkuc"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display:"block",
+      textAlign:"center",
+      background:"#d4af37",
+      color:"#000",
+      padding:"12px",
+      borderRadius:"10px",
+      textDecoration:"none",
+      fontWeight:"700"
+    }}
+  >
+    ▶️ Kòmanse Challenge 21 Jou a
+  </a>
+</div>
             <p style={{fontSize:12,color:C.muted,lineHeight:1.6,marginBottom:12}}>{ch.desc[lang]}</p>
             <div style={{marginBottom:14}}>
               <div style={{fontSize:11,fontWeight:700,color:C.text,marginBottom:8,letterSpacing:0.5}}>{t.challenges.includes}</div>
