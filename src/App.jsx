@@ -202,7 +202,37 @@ export default function App() {
             <div style={{fontSize:12,fontWeight:700,color:item.col}}>{item.label}</div>
           </div>
         ))}
-      </div>
+      </div><div style={{...s.goldCard, textAlign:"center", border:`1px solid ${C.gold}66`}}>
+  <div style={{fontSize:20, fontWeight:700, color:C.gold, marginBottom:6}}>
+    🌟 Premium Membership
+  </div>
+
+  <div style={{fontSize:13, color:C.muted, marginBottom:10}}>
+    Aksè ak mizik sakre, meditasyon gide, afimasyon, ak kontni espesyal.
+  </div>
+
+  <div style={{fontSize:18, fontWeight:800, color:C.teal, marginBottom:12}}>
+    $11.11 / mwa
+  </div>
+
+  <a
+    href="https://www.paypal.me/FJEnterprisesLLC/11.11"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display:"block",
+      textAlign:"center",
+      background:"#0070ba",
+      color:"#fff",
+      padding:"14px",
+      borderRadius:"12px",
+      textDecoration:"none",
+      fontWeight:"700"
+    }}
+  >
+    💳 Peye ak PayPal
+  </a>
+</div>
       <div style={{fontSize:10,color:C.muted,letterSpacing:2,textTransform:"uppercase",marginBottom:10}}>{t.home.myBrands}</div>
       {BRANDS.map(br=>(
         <div key={br.id} onClick={()=>setPage("brands")} style={{...s.card,cursor:"pointer",border:`1px solid ${br.color}44`,background:`linear-gradient(135deg, ${C.card}, ${br.color}08)`,display:"flex",gap:14,alignItems:"center",marginBottom:10}}>
